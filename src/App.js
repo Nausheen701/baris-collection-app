@@ -1,7 +1,8 @@
+import Home from "./pages/Home";
+
 const App = () => {
-  return (
-    <> Baris Collection </>
-  )
+  return <Home/>
+ 
 }
 
 export default App;
