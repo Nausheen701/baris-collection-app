@@ -1,9 +1,12 @@
 import Home from "./pages/Home";
 
 const App = () => {
-  return 
+  return ( 
+    // <div>Hello again world!</div>
+    <Home/>
+  )
   
-  <div>Hello again world!</div>
+  
  
 }
 
