@@ -7,9 +7,11 @@ const Container = styled.div`
 `
 
 
+const name = "Nausheen"
+
 const Navbar = () => {
     return (
-        <div classname="container">
+        <div className="container">
             navbar
         </div>
     )
