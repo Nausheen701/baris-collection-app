@@ -1,20 +1,11 @@
-// import React from 'react'
-// import styled from 'styled-components'
+import React from 'react'
 
-// const Container = styled.div`
-//     height: 60px;
-//     background-color: black;
-// `
+const Navbar = () => {
+  return (
+    <div>
+      navbar
+    </div>
+  )
+}
 
-
-// const name = "Nausheen"
-
-// const Navbar = () => {
-//     return (
-//         <div className="container">
-//             navbar
-//         </div>
-//     )
-// }
-
-// export default Navbar
+export default Navbar
