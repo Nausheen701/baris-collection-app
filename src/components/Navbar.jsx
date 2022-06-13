@@ -11,11 +11,14 @@ const Container  = styled.div`
 const Wrapper = styled.div`
     padding: 10px 20px; 
     display: flex;
-    
+    align-items: center;
+    justify-content: space-between;
 `;
 
 const Left = styled.div`
     flex: 1;
+    display: flex;
+    align-items: center;
 `
 const Language = styled.span`
     font-size: 14px;
