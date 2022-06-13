@@ -25,10 +25,16 @@ const Language = styled.span`
     cursor: pointer;
 `
 const SearchContainer = styled.div`
-    border:  1px solid lightgray;
+    border:  0.5px solid lightgray;
     display: flex;
     align-items: center;
+    margin-left: 25px;
+    papdding: 5px
 `
+const Input = styled.input`
+    border: none
+`
+
 const Center = styled.div`
     flex: 1;
 `
@@ -44,8 +50,7 @@ const Navbar = () => {
             <Left>
                 <Language>EN</Language>
                 <SearchContainer>
-                 input
-                 {/* <SearchIcon/> */}
+                 <Input/>
                 </SearchContainer>
             </Left>
              <Center>center</Center>
