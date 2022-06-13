@@ -44,7 +44,6 @@ const Logo = styled.h1`
     font-weight: bold
 `
 
-
 const Right = styled.div`
     flex: 1;
   
@@ -60,7 +59,7 @@ const Navbar = () => {
                  <Input/>
                 </SearchContainer>
             </Left>
-             <Center>BARIS COLLECTION</Center>
+             <Center><Logo> BARIS COLLECTION</Logo>  </Center>
              <Right>right</Right>
          </Wrapper>
       </Container>
