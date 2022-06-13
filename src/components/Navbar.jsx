@@ -37,7 +37,14 @@ const Input = styled.input`
 
 const Center = styled.div`
     flex: 1;
+    text-align: center;
 `
+
+const Logo = styled.h1`
+    font-weight: bold
+`
+
+
 const Right = styled.div`
     flex: 1;
   
@@ -53,7 +60,7 @@ const Navbar = () => {
                  <Input/>
                 </SearchContainer>
             </Left>
-             <Center>center</Center>
+             <Center>BARIS COLLECTION</Center>
              <Right>right</Right>
          </Wrapper>
       </Container>
