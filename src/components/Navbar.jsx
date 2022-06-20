@@ -49,7 +49,7 @@ const Right = styled.div`
 `
 const MenuItem = styled.div`
     font-size : 14 px;
-    cursor: pointer
+    cursor: pointer;
 `
 
 const Navbar = () => { 
@@ -63,7 +63,11 @@ const Navbar = () => {
                 </SearchContainer>
             </Left>
              <Center><Logo> BARIS COLLECTION</Logo>  </Center>
-             <Right>right</Right>
+             <Right>
+                 <MenuItem>REGISTER</MenuItem>
+                 <MenuItem>SIGN IN</MenuItem>
+                 <MenuItem></MenuItem>
+             </Right>
          </Wrapper>
       </Container>
     // <div className="container">
