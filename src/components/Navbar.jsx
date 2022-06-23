@@ -14,7 +14,7 @@ const Container  = styled.div`
 const Wrapper = styled.div`
     padding: 10px 20px; 
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
 `;
 
@@ -63,31 +63,12 @@ const Navbar = () => {
   return (
       <Container>
          <Wrapper> 
-            <Left>
-                <Language>EN</Language>
-                <SearchContainer>
-                 <Input/>
-                 {/* <Search stlye={{color:"gray", fontSize:16}}/> */}
-                </SearchContainer>
-            </Left>
-            
-            <Center><Logo> BARIS COLLECTION</Logo>  </Center>
-            
-            <Right>
-                 <MenuItem>REGISTER</MenuItem>
-                 <MenuItem>SIGN IN</MenuItem>
-                 <MenuItem>
-                 <Badge badgeContent={4} color="primary">
-                    <ShoppingCartOutlinedIcon/>
-                 </Badge>
-                 </MenuItem>
-            </Right>
+           
+            I am wrapped! Onto adding functionality!
 
          </Wrapper>
       </Container>
-    // <div className="container">
-    //   navbar
-    // </div>
+
   )
 }
 
