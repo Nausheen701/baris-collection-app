@@ -14,6 +14,7 @@ const Container  = styled.div`
 const Wrapper = styled.div`
     padding: 10px 20px; 
     display: flex;
+        // display flex makes elements horizontal
     align-items: stretch;
     justify-content: space-between;
 `;
@@ -67,7 +68,7 @@ const Navbar = () => {
                 <Language>EN</Language>
                 <SearchContainer>
                     <Input/>
-                    <SearchIcon />
+                    <SearchIcon style={{color:"gray", fontSize:16}} />
                 </SearchContainer>
 
            </Left>
@@ -78,7 +79,7 @@ const Navbar = () => {
                 <MenuItem>REGISTER</MenuItem>
                 <MenuItem>SIGN IN</MenuItem>
                 <MenuItem>
-                <Badge badgeContent={4} color="primary">
+                <Badge badgeContent={1} color="primary">
                     <ShoppingCartOutlinedIcon />
                 </Badge>
                 </MenuItem>
