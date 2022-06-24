@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-// import SearchIcon from '@mui/icons-material/Search';
-// import SearchIcon from '@material-ui/icons/Search';
+
+import SearchIcon from '@mui/icons-material/Search';
 // import { Search } from '@material-ui/icons'
 import Badge from '@mui/material/Badge';
-// import MailIcon from '@mui/icons-material/Mail';
+import MailIcon from '@mui/icons-material/Mail';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Container  = styled.div`
@@ -63,8 +63,27 @@ const Navbar = () => {
   return (
       <Container>
          <Wrapper> 
-           
-            I am wrapped! Onto adding functionality!
+           <Left>
+                <Language>EN</Language>
+                <SearchContainer>
+                    <Input/>
+                    <SearchIcon />
+                </SearchContainer>
+
+           </Left>
+           <Center>
+            <Logo>BARIS COLLECTION</Logo>
+           </Center>
+           <Right>
+                <MenuItem>REGISTER</MenuItem>
+                <MenuItem>SIGN IN</MenuItem>
+                <MenuItem>
+                <Badge badgeContent={4} color="primary">
+                    <ShoppingCartOutlinedIcon />
+                </Badge>
+                </MenuItem>
+           </Right>
+            {/* I am wrapped! Onto adding functionality! */}
 
          </Wrapper>
       </Container>
