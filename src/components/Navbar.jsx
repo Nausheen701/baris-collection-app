@@ -73,7 +73,7 @@ const Navbar = () => {
 
            </Left>
            <Center>
-            <Logo>BARIS COLLECTION</Logo>
+            <Logo>SIRAT DIGITAL PRINTS</Logo>
            </Center>
            <Right>
                 <MenuItem>REGISTER</MenuItem>
