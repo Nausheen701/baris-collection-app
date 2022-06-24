@@ -6,7 +6,9 @@ const Container = styled.div `
     color: white;
     display: flex;
     align-items: center;
+        // aligns vertically
     justify-content: center;
+        // aligns horizontally
     font-size: 14px;
     font-weight: 500;
     `
