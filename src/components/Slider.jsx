@@ -1,6 +1,8 @@
 
 import { ArrowLeftOutlined, ArrowRightOutlined } from '@mui/icons-material'
 import styled from 'styled-components'
+import { useState } from "react"
+import {sliderItems} from "../data"
 
 const Container = styled.div `
     width: 100%;
@@ -74,7 +76,12 @@ const Button = styled.button`
 const Slider = () => {
         const [slideIndex, setSlideIndex] = useState(0)
 
-        const handleClick = (direction) => {}
+        const handleClick = (direction) => {
+
+            if(direction==="left")  {
+                setSlideIndex(slideIndex )
+            }
+        }
     return (
         <Container> 
             <Arrow direction="left" onClick={()=>handleClick("left")}>
@@ -82,20 +89,21 @@ const Slider = () => {
             </Arrow>
 
             <Wrapper>
+                {sliderItems.map((item) => (
+                    <Slide bg={item.bg}> 
+                    <ImgContainer>
+                        <Image src={item.img}/>
+                    </ImgContainer>
+    
+                    <InfoContainer>
+                        <Title>{item.title}</Title>
+                        <Desc>{item.desc}</Desc>
+                        <Button>SHOW NOW</Button>
+                    </InfoContainer>
+                    </Slide>
+                ))} 
 
-                <Slide bg="lavender"> 
-                <ImgContainer>
-                    <Image src="https://static.wixstatic.com/media/ca849f_380ee0721b624f5f942190e93b7e9d5d~mv2.jpg/v1/fill/w_1480,h_1973,al_c,q_90/ca849f_380ee0721b624f5f942190e93b7e9d5d~mv2.webp"/>
-                </ImgContainer>
-
-                <InfoContainer>
-                    <Title>EID SALE</Title>
-                    <Desc>Unique prints to create personalized Eid greeting cards!</Desc>
-                    <Button>SHOW NOW</Button>
-                </InfoContainer>
-                </Slide>
-
-                <Slide bg="lightblue"> 
+                {/* <Slide bg="lightblue"> 
                 <ImgContainer>
                     <Image src="https://static.wixstatic.com/media/ca849f_f6b370fcf0bc42bdb90413db34075188~mv2.jpg/v1/fill/w_1480,h_1973,al_c,q_90/ca849f_f6b370fcf0bc42bdb90413db34075188~mv2.webp"/>
                 </ImgContainer>
@@ -117,7 +125,7 @@ const Slider = () => {
                     <Desc>Unique prints to create personalized greeting cards!</Desc>
                     <Button>SHOW NOW</Button>
                 </InfoContainer>
-                </Slide>
+                </Slide> */}
 
               
             </Wrapper>
