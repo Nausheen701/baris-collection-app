@@ -16,7 +16,7 @@ const Container = styled.div `
 const Announcement = () => {
     return (
         <Container>
-            Free Shipping on Orders Over 250TL!
+            Buy 3, get 1 free!
         </Container>
     )
 }
