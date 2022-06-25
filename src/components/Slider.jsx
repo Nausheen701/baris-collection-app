@@ -27,12 +27,14 @@ const Arrow = styled.div`
     margin: auto;
     cursor: pointer;
     opacity: 0.5;
+    z-index: 2;
 `
 
 const Wrapper = styled.div`
     height: 100%;
     display: flex;
-
+    transform: translateX(0vw);
+        // moves slides across the x-axis
 `
 const Slide = styled.div`
     width: 100vw; 
@@ -70,9 +72,12 @@ const Button = styled.button`
 `
 
 const Slider = () => {
+        const [slideIndex, setSlideIndex] = useState(0)
+
+        const handleClick = (direction) => {}
     return (
         <Container> 
-            <Arrow direction="left">
+            <Arrow direction="left" onClick={()=>handleClick("left")}>
                 <ArrowLeftOutlined/>  
             </Arrow>
 
@@ -117,7 +122,7 @@ const Slider = () => {
               
             </Wrapper>
 
-            <Arrow direction="right"> 
+            <Arrow direction="right" onClick={()=>handleClick("right")}> 
                 <ArrowRightOutlined/> 
             </Arrow>
 
