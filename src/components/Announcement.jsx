@@ -16,7 +16,7 @@ const Container = styled.div `
 const Announcement = () => {
     return (
         <Container>
-            Buy 3, get 1 free!
+            Ask about our summer specials!
         </Container>
     )
 }
