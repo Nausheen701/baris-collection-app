@@ -1,17 +1,17 @@
 export const sliderItems = [
     {
         id: 1,
-        img: "https://static.wixstatic.com/media/ca849f_f6b370fcf0bc42bdb90413db34075188~mv2.jpg/v1/fill/w_1480,h_1973,al_c,q_90/ca849f_f6b370fcf0bc42bdb90413db34075188~mv2.webp",
-        title: "EID SALE",
-        desc: "Unique prints to create personalized Eid greeting cards",
+        img: "https://static.wixstatic.com/media/ca849f_bca7ce1f578947889d804adf5e495370~mv2.jpg/v1/fill/w_755,h_1024,al_c,q_90/ca849f_bca7ce1f578947889d804adf5e495370~mv2.webp",
+        title: "SUMMER SPECIAL",
+        desc: "The latest in designer sunglass styles",
         bg: "blue"
     },
 
     {
         id: 2,
-        img: "https://static.wixstatic.com/media/ca849f_afe14472c12548ef8cea1a132ea92fb7~mv2.jpg/v1/fill/w_1480,h_1110,al_c,q_90/ca849f_afe14472c12548ef8cea1a132ea92fb7~mv2.webp",
-        title: "POPULAR PRINTS",
-        desc:  "Inspired by Pakistani truck art, this is a colorful fish painting in acrylic",
+        img: "https://static.wixstatic.com/media/ca849f_c6b6307169e84d80ba0641bd932f99e4~mv2.jpg/v1/fill/w_577,h_1024,al_c,q_90/ca849f_c6b6307169e84d80ba0641bd932f99e4~mv2.webp",
+        title: "ON TREND BAGS",
+        desc:  "Purses and backpacks for all occasions",
         bg: "coral" 
     },
 
