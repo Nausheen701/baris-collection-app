@@ -22,7 +22,10 @@ const Info = styled.div`
     display: flex;
     `;
 
-const CategoryItem = () => {
+const Title = styled.h1``;
+const Button = styled.button``;
+
+const CategoryItem = (item) => {
   return (
     <Container>
         <Image src={item.img}/>
