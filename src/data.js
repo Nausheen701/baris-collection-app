@@ -17,9 +17,9 @@ export const sliderItems = [
 
     {
         id: 3,
-        img: "https://static.wixstatic.com/media/ca849f_380ee0721b624f5f942190e93b7e9d5d~mv2.jpg/v1/fill/w_1480,h_1973,al_c,q_90/ca849f_380ee0721b624f5f942190e93b7e9d5d~mv2.webp",
-        title: "ART FUSION",
-        desc: "Unique prints to create personalized greeting cards!",
+        img: "https://static.wixstatic.com/media/ca849f_1f7a9ea7ca284166801a5f4a50d57d46~mv2.jpg/v1/fill/w_900,h_1600,al_c,q_90/ca849f_1f7a9ea7ca284166801a5f4a50d57d46~mv2.webp",
+        title: "THE PERFECT ACCESSORY",
+        desc: "You'll have time on your hand with these chic watches. Pair them with your favorite bangles",
         bg: "lavender"
     } 
 ]
