@@ -20,9 +20,15 @@ const Info = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
     `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+   
+
+`;
 const Button = styled.button``;
 
 const CategoryItem = ({item}) => {
