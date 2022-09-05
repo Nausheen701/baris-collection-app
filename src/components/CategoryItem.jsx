@@ -25,7 +25,7 @@ const Info = styled.div`
 const Title = styled.h1``;
 const Button = styled.button``;
 
-const CategoryItem = (item) => {
+const CategoryItem = ({item}) => {
   return (
     <Container>
         <Image src={item.img}/>
