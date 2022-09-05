@@ -11,12 +11,13 @@ const Container = styled.div`
 
 const Categories = () => {
   return (
-    
+    <> ART PRINTS 
     <Container> 
         {categories.map(item=>(
             <CategoryItem item={item}/>
         ) )}
-    </Container>
+    </Container></>
+    
   )
 }
 

@@ -27,17 +27,35 @@ export const sliderItems = [
 export const categories = [
     {
         id: 1,
-        img: "some image",
-        title: "Sunglasses",
+        img: "https://static.wixstatic.com/media/ca849f_95c16bd55ab447429ce4cf7d17eafd3b~mv2.jpg/v1/fill/w_1324,h_873,al_c,q_85,enc_auto/ca849f_95c16bd55ab447429ce4cf7d17eafd3b~mv2.jpg",
+        title: "organic"
     },
     {
         id: 2,
-        img: "another image",
-        title: "Bags",
+        img: "https://static.wixstatic.com/media/ca849f_006589b0be3544abac409ab4c89212bf~mv2.jpg/v1/fill/w_1480,h_1974,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ca849f_006589b0be3544abac409ab4c89212bf~mv2.jpg",
+        title: "surreal"
     },
     {
         id: 3,
-        img: "last image",
-        title: "Watches",
+        img: "https://static.wixstatic.com/media/ca849f_26b43b4313ee4f4a8bb03fa4a2cbee75~mv2.jpg/v1/fill/w_497,h_497,al_c,lg_1,q_80,enc_auto/ca849f_26b43b4313ee4f4a8bb03fa4a2cbee75~mv2.jpg",
+        title: "bold"
     }
 ]
+
+// export const categories = [
+//     {
+//         id: 1,
+//         img: "some image",
+//         title: "Sunglasses",
+//     },
+//     {
+//         id: 2,
+//         img: "another image",
+//         title: "Bags",
+//     },
+//     {
+//         id: 3,
+//         img: "last image",
+//         title: "Watches",
+//     }
+// ]
