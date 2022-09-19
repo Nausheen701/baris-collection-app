@@ -45,18 +45,15 @@ export const categories = [
 export const popularProducts = [
     {
         id: 1,
-        img: "https://static.wixstatic.com/media/ca849f_f6b370fcf0bc42bdb90413db34075188~mv2.jpg/v1/fill/w_1480,h_1974,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ca849f_f6b370fcf0bc42bdb90413db34075188~mv2.jpg",
-        title: "Crystal Mosque"
+        img: "https://static.wixstatic.com/media/ca849f_f6b370fcf0bc42bdb90413db34075188~mv2.jpg/v1/fill/w_1480,h_1974,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ca849f_f6b370fcf0bc42bdb90413db34075188~mv2.jpg"
     },
     {
         id: 2,
-        img: "https://static.wixstatic.com/media/ca849f_9dc8d18ab4d84d89a158becc1fdd7d41~mv2.jpg/v1/fill/w_497,h_497,al_c,lg_1,q_80,enc_auto/ca849f_9dc8d18ab4d84d89a158becc1fdd7d41~mv2.jpg",
-        title: "Batik"
+        img: "https://static.wixstatic.com/media/ca849f_9dc8d18ab4d84d89a158becc1fdd7d41~mv2.jpg/v1/fill/w_497,h_497,al_c,lg_1,q_80,enc_auto/ca849f_9dc8d18ab4d84d89a158becc1fdd7d41~mv2.jpg"
     },
     {
         id: 3,
-        img: "https://static.wixstatic.com/media/ca849f_5cf95a67571b418ba9861638f125cdf8~mv2.jpg/v1/fill/w_1480,h_1974,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ca849f_5cf95a67571b418ba9861638f125cdf8~mv2.jpg",
-        title: "Pop Art Calligraphy"
+        img: "https://static.wixstatic.com/media/ca849f_5cf95a67571b418ba9861638f125cdf8~mv2.jpg/v1/fill/w_1480,h_1974,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ca849f_5cf95a67571b418ba9861638f125cdf8~mv2.jpg"
     }
 ]
 
