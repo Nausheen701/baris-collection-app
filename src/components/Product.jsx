@@ -29,6 +29,7 @@ z-index: 3;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: all 0.5s ease;
 `
 const Container = styled.div`
     flex: 1;
