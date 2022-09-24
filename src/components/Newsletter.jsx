@@ -2,7 +2,16 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <div>Newsletter</div>
+    <Container> 
+        <Title></Title> 
+        <Description></Description>
+        <InputContainer>
+            <Input/>
+            <Button>
+                
+            </Button>
+        </InputContainer>
+    </Container>
   )
 }
 
