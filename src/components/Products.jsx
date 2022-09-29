@@ -6,7 +6,7 @@ const Container = styled.div`
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-content; 
+    justify-content: center; 
 `
 
 const Products = () => {
@@ -15,7 +15,6 @@ const Products = () => {
         {popularProducts.map((item) => (
             <Product item={item} key={item.id} />
         ))}
-
    </Container>
   )
 }
