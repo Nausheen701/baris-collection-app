@@ -1,4 +1,9 @@
-import React from 'react'
+import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
+import styled from 'styled-components'
+
+const Container = styled.div``
+
+
 
 const Newsletter = () => {
   return (
@@ -8,7 +13,7 @@ const Newsletter = () => {
         <InputContainer>
             <Input/>
             <Button>
-                
+                <SendOutlinedIcon/>
             </Button>
         </InputContainer>
     </Container>
