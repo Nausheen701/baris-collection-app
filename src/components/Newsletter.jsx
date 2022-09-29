@@ -12,7 +12,7 @@ const Button = styled.button``
 const Newsletter = () => {
   return (
     <Container> 
-        <Title></Title> 
+        <Title>Newsletter</Title> 
         <Description></Description>
         <InputContainer>
             <Input/>
