@@ -39,7 +39,7 @@ const Button = styled.button`
     flex: 1;
     border: none;
     background-color: teal;
-    font-color: white;
+    color: white;
 `
 
 
