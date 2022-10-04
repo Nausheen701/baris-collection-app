@@ -70,6 +70,18 @@ const Footer = () => {
         </SocialContainer>
 
         <Center>
+            <Title> Useful Links</Title>
+            <List>
+                <ListItem>Home</ListItem>
+                <ListItem>Cart</ListItem>
+                <ListItem>Bags</ListItem>
+                <ListItem>Watches</ListItem>
+                <ListItem>Sunglasses</ListItem>
+                <ListItem>My Account</ListItem>
+                <ListItem>Order Tracking</ListItem>
+                <ListItem>Wishlist</ListItem>
+                <ListItem>Terms and Conditions</ListItem>
+            </List>
             
         </Center>
         
