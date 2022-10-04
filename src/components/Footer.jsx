@@ -8,7 +8,7 @@ const Left = styled.div`
     `
 const Center = styled.div`
     flex: 1;`
-    
+
 const Right = styled.div`
     flex: 1;`
 
@@ -16,6 +16,21 @@ const Right = styled.div`
 const Footer = () => {
   return (
     <Container> 
+        <Left>
+            <Logo>BARIS</Logo>  
+            <Desc>
+            Specializing in the season's latest bags, trendy sunglasses, and chic watches.
+            </Desc>
+        </Left>
+        <SocialContainer>
+            
+
+        </SocialContainer>
+        <Center>
+            
+        </Center>
+        
+        <Right></Right>
 
     </Container>
   )
