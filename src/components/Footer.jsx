@@ -24,8 +24,17 @@ const Footer = () => {
         </Left>
         <SocialContainer>
             
+            <SocialIcon>
+                <Instagram/>
+            </SocialIcon>
+
+            <SocialIcon>
+                <Facebook/>
+            </SocialIcon>
+
 
         </SocialContainer>
+
         <Center>
             
         </Center>
